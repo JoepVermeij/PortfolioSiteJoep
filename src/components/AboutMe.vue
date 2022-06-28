@@ -29,9 +29,9 @@
             <p>I am Joep Vermeij a junior developer driven by my passion for technology, Creativity and analytical thinking.</p>
             <p>In september I started learning programming at PXL university.</p>
             <div class="year"><h4>2022</h4></div>
-            <p>Focusing on my studies and developing my first project with a team, I quickly learned the basics</p>
-            <p> You can find my first project 'ElectricVehiclesEverywhere' below.</p>
-            <p> After my studies I developed this portfolio page and now im open for new opportunities.</p>
+            <p>This year I'm focusing on my studies and developing my first project with a team.</p>
+            <p>You can find my first project 'ElectricVehiclesEverywhere' below.</p>
+            <p>After my first year as a student I developed this portfolio page and now I'm open for new opportunities.</p>
          </div>
          </div>
      </div>
