@@ -126,7 +126,8 @@ span:hover{
 @media only screen and (max-width: 600px) {
   .LandingPage{
     margin-left: 0;
-    position: relative;
+    position: relative;  
+    height: calc(var(--vh, 1vh) * 100);
   }
   .image{
     position:absolute;

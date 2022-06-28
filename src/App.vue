@@ -44,7 +44,10 @@ export default {
         return window.innerWidth < maxWidth;
       }
     })
-}}
+}
+}
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 </script>
 
 <style>

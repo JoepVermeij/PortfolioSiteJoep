@@ -188,7 +188,7 @@ transform: translateY(0rem);
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto; 
+  overflow: auto;
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.4); 
   justify-content: center;
@@ -340,10 +340,14 @@ a{
   cursor: pointer;
 }
   @media only screen and (max-width: 600px) {
+    #portfolio1{
+      height: calc(var(--vh, 1vh) * 100 - 6rem);
+    }
     .modalphoto{
       display: none;
     }
     .modal-content {
+      margin-top: 0.1rem;
       height: unset;
       width: 90%;
     }

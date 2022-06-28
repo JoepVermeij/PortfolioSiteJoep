@@ -159,8 +159,8 @@ a:hover{
         width: 100%;
     }
     form{
-        margin: 1%;
-        width: calc(100% - 4.4rem - 2%);
+        margin: 2%;
+        width: calc(100% - 4.4rem - 4%);
     }
     .textinput, textarea{
         width: 90%;
@@ -169,8 +169,8 @@ a:hover{
         margin: 0 1rem;
     }
     .extrainfo{
-        
-        width: calc(100% - 4.4rem - 2%);
+        margin: 2%; 
+        width: calc(100% - 4.4rem - 4%);
     }
 }
 </style>

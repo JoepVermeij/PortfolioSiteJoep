@@ -177,6 +177,9 @@ h4{
     height: 100%;
 }
 @media only screen and (max-width: 600px) {
+  .AboutMe{
+    min-height: calc(var(--vh, 1vh) * 100 - 6rem);
+  }
   .AboutMeContainer{
     width: 100%;
     margin: 0 0 5rem 0;

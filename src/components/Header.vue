@@ -226,11 +226,12 @@ a:hover{
     left: 0;
     right: 0;
     height: 80vh;
+    height: calc(var(--vh, 1vh) * 100 - 20vh);
     width: 100%;
     background: var(--accent-white);
     visibility: hidden;
     flex-direction: column;
-    padding: 10vh 0;
+    padding: 15vh 0;
     justify-content: space-around;
     opacity: 0;
     transform: translateX(100vw);
@@ -243,8 +244,8 @@ a:hover{
   }
   .HamburgerItem{
     width: 100%;
-    font-size: 6rem;
-    padding: 2rem 0;
+    font-size: 4rem;
+    padding: 1rem 0;
     text-align: center;
     border-bottom: 2px solid var(--accent-black);
   }
