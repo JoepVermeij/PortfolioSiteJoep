@@ -3,7 +3,7 @@
         <div class="contactcontainer">
             <h2 data-aos="fade-down">Contact me</h2>
             <div class="contact">
-            <form data-aos="zoom-out-right" action="mailto:joepvermeij@gmail.com?subject=PortfolioMessage" method="get" enctype="text/plain">
+            <form data-aos="zoom-out-right" action="mailto:joepvermeij@gmail.com?subject=PortfolioMessage" method="post" enctype="text/plain">
             <div class="formitem">
                 <label for="name">Name
                 <input class="textinput"
@@ -92,9 +92,6 @@ input[type=submit]{
   width: 15rem;
   cursor: pointer;
 }
-input[type=submit]:hover,input[type=submit]:focus{
-    background: var(--accent-purple);
-}
 textarea{
     background: var(--accent-white);
     font-size: 1.5rem;
@@ -144,11 +141,23 @@ a{
     text-decoration: none;
     color: var(--accent-white);
 }
-a:hover{
-    color: var(--accent-purple);
+@media (hover: hover) {  
+    input[type=submit]:hover{
+        background: var(--accent-purple);
+    }
+    a:hover{
+        color: var(--accent-purple);
 
+    }
 }
 @media only screen and (max-width: 600px) {
+    input[type=submit]:active{
+        background: var(--accent-purple);
+    }
+    a:active{
+        color: var(--accent-purple);
+
+    }
     .contactcontainer{
         width: 100%;
         margin: 0;

@@ -65,17 +65,10 @@ export default {
   bottom: 1rem;
   width:4rem;
 }
-#downarrow2:hover, #downarrow2:active {
-  cursor: pointer;
-}
 .downarrow2-1{
   opacity: 1;
 transform: translateY(0rem);
 transition: 1s all ease-in-out;
-}
-#downarrow2:hover > .downarrow2-1, #downarrow2:active > .downarrow2-1{
-  transform: translateY(4rem);
-  opacity: 0;
 }
 .downarrow2-2{
   position: absolute;
@@ -86,10 +79,6 @@ transition: 1s all ease-in-out;
   opacity: 0;
   transform: translateY(-1rem) ;
 transition: 1s all ease-in-out;
-}
-#downarrow2:hover > .downarrow2-2, #downarrow2:active > .downarrow2-2{
-  opacity: 1;
-transform: translateY(0rem);
 }
 .AboutMe {
     width: 100%;
@@ -176,7 +165,34 @@ h4{
     width: 85%;
     height: 100%;
 }
+
+@media (hover: hover) {  
+
+  #downarrow2:hover > .downarrow2-2{
+    opacity: 1;
+  transform: translateY(0rem);
+  }
+  #downarrow2:hover > .downarrow2-1{
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  #downarrow2:hover{
+    cursor: pointer;
+  }
+
+ }
 @media only screen and (max-width: 600px) {
+  #downarrow2:active > .downarrow2-2{
+    opacity: 1;
+  transform: translateY(0rem);
+  }
+  #downarrow2:active > .downarrow2-1{
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  #downarrow2:active{
+    cursor: pointer;
+  }
   .AboutMe{
     min-height: calc(var(--vh, 1vh) * 100 - 6rem);
   }

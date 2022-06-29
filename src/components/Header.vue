@@ -120,11 +120,6 @@ a::before {
 	padding-left: 20px;
   background: var(--accent-black);
 }
-a:hover::before {
-	top: 1rem;
-	left: 0.1rem;
-	color: var(--accent-purple);
-}
 
 a::after {
 	content: "";
@@ -139,13 +134,20 @@ a::after {
   padding: 0;
   margin: 0;
 }
-a:hover::after {
-	width: 90%;
-	outline: 0.1rem solid  var(--accent-black);
-}
-a:hover{
-	transform: skew(10deg);
+@media (hover: hover) {   
+  a:hover::before {
+    top: 1rem;
+    left: 0.1rem;
+    color: var(--accent-purple);
+  }
+  a:hover::after {
+    width: 90%;
+    outline: 0.1rem solid  var(--accent-black);
+  }
+  a:hover{
+    transform: skew(10deg);
 
+  }
 }
 .copyright{
     float: left;
@@ -165,9 +167,6 @@ a:hover{
     height: 4.5rem;
     padding: 0 1rem;
     margin: 1rem 0;
-  }
-  .Hamburger:hover{
-    cursor: pointer;
   }
   .Hamburger > svg{  
     display: 'block';

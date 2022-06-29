@@ -148,17 +148,10 @@ export default {
   bottom: 2rem;
   width:4rem;
 }
-#downarrow3:hover, #downarrow3:active {
-  cursor: pointer;
-}
 .downarrow3-1{
   opacity: 1;
 transform: translateY(0rem);
 transition: 1s all ease-in-out;
-}
-#downarrow3:hover > .downarrow3-1, #downarrow3:active > .downarrow3-1{
-  transform: translateY(4rem);
-  opacity: 0;
 }
 .downarrow3-2{
   position: absolute;
@@ -169,10 +162,6 @@ transition: 1s all ease-in-out;
   opacity: 0;
   transform: translateY(-2rem) ;
 transition: 1s all ease-in-out;
-}
-#downarrow3:hover > .downarrow3-2, #downarrow3:active > .downarrow3-2{
-  opacity: 1;
-transform: translateY(0rem);
 }
 #portfolio1{
   width: 100%;
@@ -215,9 +204,6 @@ transform: translateY(0rem);
   font-size: 1rem;
   background: var(--accent-black);
   color: var(--accent-white);
-}
-.modal-content button:hover{
-  color: var(--accent-purple);
 }
 .modaldescription{
   width: 26rem;
@@ -339,7 +325,39 @@ a{
   width: 4rem;
   cursor: pointer;
 }
+@media (hover: hover) {  
+
+#downarrow3:hover > .downarrow3-1{
+  transform: translateY(4rem);
+  opacity: 0;
+}
+#downarrow3:hover > .downarrow3-2{
+  opacity: 1;
+transform: translateY(0rem);
+}
+#downarrow3:hover{
+  cursor: pointer;
+}
+.modal-content button:hover{
+  color: var(--accent-purple);
+}
+ }
   @media only screen and (max-width: 600px) {
+    
+    #downarrow3:active > .downarrow3-1{
+      transform: translateY(4rem);
+      opacity: 0;
+    }
+    #downarrow3:active > .downarrow3-2{
+      opacity: 1;
+    transform: translateY(0rem);
+    }
+    #downarrow3:active{
+      cursor: pointer;
+    }
+    .modal-content button:active{
+      color: var(--accent-purple);
+    }
     #portfolio1{
       height: calc(var(--vh, 1vh) * 100 - 6rem);
     }

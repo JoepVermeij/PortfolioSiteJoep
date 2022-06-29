@@ -42,17 +42,10 @@ export default {
   bottom: 0;
   width:4rem;
 }
-#downarrow:hover, #downarrow:active{
-  cursor: pointer;
-}
 .downarrow1{
   opacity: 1;
 transform: translateY(0rem);
 transition: 1s all ease-in-out;
-}
-#downarrow:hover > .downarrow1, #downarrow:active > .downarrow1{
-  transform: translateY(4rem);
-  opacity: 0;
 }
 .downarrow2{
   position: absolute;
@@ -64,10 +57,7 @@ transition: 1s all ease-in-out;
   transform: translateY(-1rem) ;
 transition: 1s all ease-in-out;
 }
-#downarrow:hover > .downarrow2, #downarrow:active > .downarrow2{
-  opacity: 1;
-transform: translateY(0rem);
-}
+
 .LandingPage{
   width: 100%;
   min-height: 100vh;
@@ -117,22 +107,48 @@ transform: translateY(0rem);
   animation: skillsflow 8s linear infinite;
  
 }
-span:hover{
-  color: var(--accent-purple);
-}
 .image{
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media (hover: hover) {  
+  #downarrow:hover > .downarrow2
+  {
+  opacity: 1;
+  transform: translateY(0rem);
+  }
+  #downarrow:hover > .downarrow1
+  {
+  transform: translateY(4rem);
+  opacity: 0;
+  }
+  #downarrow:hover{
+  cursor: pointer;
+  }
+
+ }
+@media only screen and (max-width: 600px) {  
+  #downarrow:active > .downarrow2
+  {
+  opacity: 1;
+  transform: translateY(0rem);
+  }
+  #downarrow:active > .downarrow1
+  {
+  transform: translateY(4rem);
+  opacity: 0;
+  }
+  #downarrow:active{
+  cursor: pointer;
+  }
   .LandingPage{
     margin-left: 0;
     position: relative;  
-    height: calc(var(--vh, 1vh) * 100);
+    min-height: calc(24rem + 100vw);
   }
   .image{
     position:absolute;
     display: block;
-    height: calc(85vh - 23.25rem);
+    height: calc(100vw);
     bottom: 0;
     width: 100%;
     background: url('../assets/PortfolioJoep1.png');
@@ -145,36 +161,39 @@ span:hover{
   }
   .LandingPage-Skills1{
     margin:0;
-    padding-top: 15vh;
+    padding-top: 6.5rem;
     position: relative;
-    font-size: 4rem;
-    left: 5%;
+    font-size: 3rem;
+    left: 10%;
     width: 100%;
     top: unset;
   }
   .LandingPage-Skills2{
     margin:0;
     position: relative;
-    font-size: 4rem;
-    left: 7.5%;
+    font-size: 3rem;
+    left: 12.5%;
     width: 100%;
     top: unset; 
   }
   .LandingPage-Skills3{
     margin:0;
     position: relative;
-    font-size: 4rem;
-    left: 10%;
+    font-size: 3rem;
+    left: 15%;
     width: 100%;
     top: unset; 
   }
   .LandingPage-Skills4{
     margin:0;
     position: relative;
-    font-size: 4rem;
-    left: 12.5%;
+    font-size: 3rem;
+    left: 17.5%;
     width: 100%;
     top: unset; 
+  }
+  .downarrow1{
+    content:url("../assets/down-arrow-white.svg")
   }
   #downarrow{
   margin-left: calc(50% - 2rem);
