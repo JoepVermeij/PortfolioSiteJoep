@@ -29,18 +29,18 @@ export default {
         PageLoadAnimation(el){
             console.log("PageLoad");
             gsap.to(el, {
-                y: -1000,
+                y: -2000,
                 display: 'none',
-                duration: 1,
+                duration: 2,
                 delay: 1
             })
         },
         PageLoadAnimation2(el){
             console.log("PageLoad");
             gsap.to(el, {
-                y: -1000,
+                y: -2000,
                 display: 'none',
-                duration: 1,
+                duration: 2,
                 delay: 1.5
             })
         }

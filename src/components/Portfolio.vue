@@ -277,6 +277,7 @@ a{
 .portfoliocontainer{
   width: 600px;
   height: 650px;
+  max-height: calc(100vh - 6rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,14 +344,16 @@ transform: translateY(0rem);
 }
  }
   @media only screen and (max-width: 600px) {
-    
+    .portfolio__bg{
+      display: none;
+    }
     #downarrow3:active > .downarrow3-1{
       transform: translateY(4rem);
       opacity: 0;
     }
     #downarrow3:active > .downarrow3-2{
       opacity: 1;
-    transform: translateY(0rem);
+      transform: translateY(0rem);
     }
     #downarrow3:active{
       cursor: pointer;
@@ -376,6 +379,7 @@ transform: translateY(0rem);
     .portfoliocontainer{
       width: 100%;
       margin: 0;
+      max-height: calc(var(--vh, 1vh) * 100 - 6rem);
     }
     .portfolio__bg{
       margin: 0;

@@ -66,7 +66,7 @@ transition: 1s all ease-in-out;
 }
 
 .LandingPage-Skills1{
-  left: 35%;
+  left: 40%;
   width: 100%;
   position: absolute;
   white-space: nowrap;
@@ -76,7 +76,7 @@ transition: 1s all ease-in-out;
   animation: skillsflow 8s linear -2s infinite;
 }
 .LandingPage-Skills2{
-  left: 37%;
+  left: 42.5%;
   width: 100%;
   position: absolute;
   top: 15vh;
@@ -86,7 +86,7 @@ transition: 1s all ease-in-out;
   white-space: nowrap;
 }
 .LandingPage-Skills3{
-  left: 39%;
+  left: 45%;
   width: 100%;
   position: absolute;
   top: 35vh;
@@ -97,7 +97,7 @@ transition: 1s all ease-in-out;
  
 }
 .LandingPage-Skills4{
-  left: 41%;
+  left: 47.5%;
   width: 100%;
   position: absolute;
   white-space: nowrap;
@@ -144,6 +144,7 @@ transition: 1s all ease-in-out;
     margin-left: 0;
     position: relative;  
     min-height: calc(24rem + 100vw);
+    height: calc(var(--vh, 1vh) * 100);
   }
   .image{
     position:absolute;
@@ -164,32 +165,32 @@ transition: 1s all ease-in-out;
     padding-top: 6.5rem;
     position: relative;
     font-size: 3rem;
-    left: 10%;
-    width: 100%;
+    left: 15%;
+    width: 90%;
     top: unset;
   }
   .LandingPage-Skills2{
     margin:0;
     position: relative;
     font-size: 3rem;
-    left: 12.5%;
-    width: 100%;
+    left: 17.5%;
+    width: 87.5%;
     top: unset; 
   }
   .LandingPage-Skills3{
     margin:0;
     position: relative;
     font-size: 3rem;
-    left: 15%;
-    width: 100%;
+    left: 20%;
+    width: 85%;
     top: unset; 
   }
   .LandingPage-Skills4{
     margin:0;
     position: relative;
     font-size: 3rem;
-    left: 17.5%;
-    width: 100%;
+    left: 22.5%;
+    width: 82.5%;
     top: unset; 
   }
   .downarrow1{
