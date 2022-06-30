@@ -26,10 +26,10 @@
             <li>5 developers</li>
             <li>5 months</li>
             <li>Fully functional front to back</li>
-            <li>Hire an electric vehicle</li>
+            <li>Rent an electric vehicle</li>
             <li>Frontend: HTML/CSS/JS</li>
             <li>Backend: .NET/NODE.JS/SQL</li>
-            <li><a  href="https://github.com/JoepVermeij/Projects/tree/main/ElectricVehiclesEverywhere"><button>Github</button></a></li>
+            <li><a target="_blank" href="https://github.com/JoepVermeij/Projects/tree/main/ElectricVehiclesEverywhere"><button>Github</button></a></li>
           </ul>
           <button @click="CloseModal" class="modalclose">close</button>
         </div>

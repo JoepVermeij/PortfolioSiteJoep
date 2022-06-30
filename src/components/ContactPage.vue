@@ -27,7 +27,7 @@
             <div data-aos="zoom-out-left"  class="extrainfo">
                 <div class="telephone">
                 <h3>Telephone</h3>
-                <p><a href="tel:0032487710069">+32 (0)4 - 87 71 00 69</a></p>
+                <p><a href="tel:0032487710069">+32 487 710 069</a></p>
                 </div>
                 <div class="email">
                 <h3>E-mail</h3>

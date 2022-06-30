@@ -161,11 +161,15 @@ a::after {
   .Nav-Item{
     display: none;
   }
+  .copyright{
+    padding: 1rem 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
+  }
   .Hamburger{
     display: block;
     float: right;
     height: 4.5rem;
-    padding: 0 1rem;
+    padding: 0 1rem 0 0;
     margin: 1rem 0;
   }
   .Hamburger > svg{  

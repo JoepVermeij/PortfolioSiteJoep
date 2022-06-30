@@ -18,7 +18,7 @@ import LeftSide from './components/LeftSide.vue'
 import AboutMe from './components/AboutMe.vue'
 import ContactPage from './components/ContactPage.vue'
 import PageLoader from './components/PageLoader.vue'
-import AOS from 'aos';
+import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 
