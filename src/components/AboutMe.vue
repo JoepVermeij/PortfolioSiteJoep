@@ -23,6 +23,10 @@
          <div class="progressbar">
             <div data-aos="slide-right" class="sql"></div>
          </div>
+         <h3>Python</h3>
+         <div class="progressbar">
+            <div data-aos="slide-right" class="python"></div>
+         </div>
          <div class="history">
             <div class="year"><h4>2021</h4></div>
             <p>From accountant to programmer.</p>
@@ -31,7 +35,7 @@
             <div class="year"><h4>2022</h4></div>
             <p>This year I'm focusing on my studies and developing my first project with a team.</p>
             <p>You can find my first project 'ElectricVehiclesEverywhere' below.</p>
-            <p>After my first year as a student I developed this portfolio page and now I'm open for new opportunities.</p>
+            <p>After my first year as a student I developed this portfolio page, started learning python and now I'm open for new opportunities.</p>
          </div>
          </div>
      </div>
@@ -163,6 +167,11 @@ h4{
 .sql{
     background: var(--accent-white);
     width: 85%;
+    height: 100%;
+}
+.python{
+    background: var(--accent-white);
+    width: 30%;
     height: 100%;
 }
 

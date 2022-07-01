@@ -16,7 +16,7 @@ import LandingPage from './components/LandingPage.vue'
 import Portfolio from './components/Portfolio.vue'
 import LeftSide from './components/LeftSide.vue'
 import AboutMe from './components/AboutMe.vue'
-import ContactPage from './components/ContactPage.vue'
+import ContactPage from './ContactPage.vue'
 import PageLoader from './components/PageLoader.vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
