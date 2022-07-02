@@ -88,7 +88,7 @@ export default {
     },
     MovingAnimation(event) {
       this.xAxis = (window.innerWidth*3/4 - event.pageX) /30;
-      this.yAxis = (window.innerHeight*2.3 - event.pageY) /30;
+      this.yAxis = (window.innerHeight*2.5 - event.pageY) /30;
       this.ZTitle = 35;
       this.ZButton = 25;
       },

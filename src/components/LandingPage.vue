@@ -1,5 +1,6 @@
 <template>
   <div class="LandingPage">
+    <div class="skillscontainer">
     <div data-aos="slide-right" data-aos-delay="2200"  Class="LandingPage-Skills1">
       <h3>FLEXIBLE</h3>
     </div>
@@ -16,6 +17,7 @@
     <div @click="GoToAboutMe"  id="downarrow">
       <img class="downarrow1"  src="../assets/down-arrow.svg" alt="down arrow image" />
       <img class="downarrow2"  src="../assets/down-arrow-green.svg" alt="down arrow image" />
+    </div>
     </div>
   </div>
 </template>
@@ -157,12 +159,19 @@ transition: 1s all ease-in-out;
     background-position-x: center;
 
   }
+  .skillscontainer{
+    padding-top: 6.5rem;
+    min-height: 17.5rem;
+    height: calc(100% - 100vw - 6.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   h3{
     margin:0;
   }
   .LandingPage-Skills1{
     margin:0;
-    padding-top: 6.5rem;
     position: relative;
     font-size: 3rem;
     left: 15%;

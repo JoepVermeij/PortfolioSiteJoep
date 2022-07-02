@@ -268,5 +268,10 @@ a::after {
   .HamburgerMenuSvg svg{
     height: 100%;
   }
+  @media only screen and (max-width: 315px) {
+    .Nav-Item-Copyright{
+      display: none;
+    }
+  }
 }
 </style>
