@@ -157,7 +157,7 @@ a::after {
 .Hamburger{
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .Nav-Item{
     display: none;
   }

@@ -160,7 +160,7 @@ a{
 
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     input[type=submit]:active{
         background: var(--accent-purple);
     }

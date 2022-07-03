@@ -16,7 +16,7 @@ import LandingPage from './components/LandingPage.vue'
 import Portfolio from './components/Portfolio.vue'
 import LeftSide from './components/LeftSide.vue'
 import AboutMe from './components/AboutMe.vue'
-import ContactPage from './ContactPage.vue'
+import ContactPage from './components/ContactPage.vue'
 import PageLoader from './components/PageLoader.vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -40,7 +40,7 @@ export default {
     AOS.init({
       duration: 1200,
       disable: function() {
-        var maxWidth = 600;
+        var maxWidth = 800;
         return window.innerWidth < maxWidth;
       }
     })
@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (hover: hover) and (max-width: 600px)  {
+@media only screen and (max-width: 800px)  {
   html{
     overflow-x: hidden;
   }

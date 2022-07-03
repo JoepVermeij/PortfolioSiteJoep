@@ -194,7 +194,7 @@ h4{
   }
 
  }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   #downarrow2:active > .downarrow2-2{
     opacity: 1;
   transform: translateY(0rem);

@@ -133,7 +133,87 @@ transition: 1s all ease-in-out;
   }
 
  }
-@media only screen and (max-width: 600px) {  
+@media only screen and (min-width: 801px) and (max-width: 1200px) { 
+  #downarrow:active > .downarrow2
+  {
+  opacity: 1;
+  transform: translateY(0rem);
+  }
+  #downarrow:active > .downarrow1
+  {
+  transform: translateY(4rem);
+  opacity: 0;
+  }
+  #downarrow:active{
+  cursor: pointer;
+  }
+  .LandingPage{
+    margin-left: 0;
+    position: relative;  
+    min-height: calc(100vw);
+  }
+  .image{
+    position:absolute;
+    display: block;
+    height: calc(100vw);
+    top: 0;
+    width: 50%;
+    background: url('../assets/PortfolioJoep1.png');
+    background-size: cover;
+    background-position-x: center;
+
+  }
+  .skillscontainer{
+    padding-top: 6.5rem;
+    min-height: 17.5rem;
+    height: calc(100% - 100vw - 6.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h3{
+    margin:0;
+  }
+  .LandingPage-Skills1{
+    margin:0;
+    position: relative;
+    font-size: 6rem;
+    left: 45%;
+    width: 100%;
+    top: unset;
+  }
+  .LandingPage-Skills2{
+    margin:0;
+    position: relative;
+    font-size: 6rem;
+    left: 45%;
+    width: 100%;
+    top: unset; 
+  }
+  .LandingPage-Skills3{
+    margin:0;
+    position: relative;
+    font-size: 6rem;
+    left: 45%;
+    width: 100%;
+    top: unset; 
+  }
+  .LandingPage-Skills4{
+    margin:0;
+    position: relative;
+    font-size: 6rem;
+    left: 45%;
+    width: 100%;
+    top: unset; 
+  }
+  .downarrow1{
+    content:url("../assets/down-arrow-white.svg")
+  }
+  #downarrow{
+  margin-left: calc(50% - 2rem);
+  }
+}
+@media only screen and (max-width: 800px) {  
   #downarrow:active > .downarrow2
   {
   opacity: 1;

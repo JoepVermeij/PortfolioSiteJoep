@@ -20,7 +20,7 @@ export default {
     background-image: url('../assets/PortfolioJoep3.png');
     background-size: cover;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .LandingPage-Image{
     display: none;
 }}

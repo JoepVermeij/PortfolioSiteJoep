@@ -94,7 +94,7 @@ export default {
       },
     OutAnimation() {
       this.transition = 'all 0.5s ease';
-      this.xAxis = 0;
+      this.xAxis = 0;3
       this.yAxis = 0;     
       this.ZTitle = 0; 
       this.ZButton = 0;
@@ -348,7 +348,7 @@ transform: translateY(0rem);
   color: var(--accent-purple);
 }
  }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1200px) {
     .portfolio__bg{
       display: none;
     }

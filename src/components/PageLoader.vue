@@ -77,7 +77,7 @@ export default {
         height: 100vh;
         background: var(--accent-purple);
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 800px) {
         
     h1{
         font-size: 6rem;
