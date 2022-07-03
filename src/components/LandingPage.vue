@@ -43,11 +43,14 @@ export default {
   margin-left: calc(75% - 2rem);
   bottom: 0;
   width:4rem;
+  height: 4rem;
 }
 .downarrow1{
   opacity: 1;
 transform: translateY(0rem);
 transition: 1s all ease-in-out;
+width: 100%;
+height: 100%;
 }
 .downarrow2{
   position: absolute;
