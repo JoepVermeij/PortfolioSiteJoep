@@ -66,13 +66,15 @@ export default {
   display: flex;
   z-index: 8;
   margin-left: calc(75% - 4rem);
-  bottom: 1rem;
   width:4rem;
+  height: 4rem;
 }
 .downarrow2-1{
   opacity: 1;
 transform: translateY(0rem);
 transition: 1s all ease-in-out;
+width: 100%;
+height: 100%;
 }
 .downarrow2-2{
   position: absolute;
@@ -81,6 +83,8 @@ transition: 1s all ease-in-out;
   left: 0;
   right: 0;
   opacity: 0;
+  width:4rem;
+  height: 4rem;
   transform: translateY(-1rem) ;
 transition: 1s all ease-in-out;
 }

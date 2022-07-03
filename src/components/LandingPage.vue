@@ -59,6 +59,8 @@ height: 100%;
   left: 0;
   right: 0;
   opacity: 0;
+  width:4rem;
+  height: 4rem;
   transform: translateY(-1rem) ;
 transition: 1s all ease-in-out;
 }

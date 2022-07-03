@@ -147,11 +147,14 @@ export default {
   z-index: 6;
   bottom: 2rem;
   width:4rem;
+  height: 4rem;
 }
 .downarrow3-1{
   opacity: 1;
 transform: translateY(0rem);
 transition: 1s all ease-in-out;
+width: 100%;
+height: 100%;
 }
 .downarrow3-2{
   position: absolute;
@@ -162,6 +165,8 @@ transition: 1s all ease-in-out;
   opacity: 0;
   transform: translateY(-2rem) ;
 transition: 1s all ease-in-out;
+  width:4rem;
+  height: 4rem;
 }
 #portfolio1{
   width: 100%;
