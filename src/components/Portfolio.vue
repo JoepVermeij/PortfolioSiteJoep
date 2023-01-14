@@ -81,7 +81,7 @@ export default {
   },
   methods: {
     GoToAboutMe(){
-      var element = document.getElementById('contact');
+      var element = document.getElementById('portfolio1school');
       var top = element.offsetTop;
       var left = element.offsetLeft;
       window.scroll(left, top-104);

@@ -7,6 +7,9 @@
       <div @click="GoToContact" class="Nav-Item">
         <a data-name="contact">CONTACT</a>
       </div>
+      <div @click="GoToPortfolioSchool" class="Nav-Item">
+        <a data-name="Education" >Education</a>
+      </div>
       <div @click="GoToPortfolio" class="Nav-Item">
         <a data-name="portfolio" >PORTFOLIO</a>
       </div>
@@ -21,6 +24,7 @@
           <div @click="GoToHomePage" class="HamburgerItem HomeItem">Home</div>
           <div @click="GoToAboutMe" class="HamburgerItem">About me</div>
           <div @click="GoToPortfolio" class="HamburgerItem">Portfolio</div>
+          <div @click="GoToPortfolioSchool" class="HamburgerItem">School</div>
           <div @click="GoToContact" class="HamburgerItem">Contact</div>
         </div>
     </div>
@@ -41,6 +45,14 @@ export default {
   methods: {
   GoToPortfolio(){
       var element = document.getElementById('portfolio1');
+      var top = element.offsetTop;
+      var left = element.offsetLeft;
+      window.scroll(left, top-104);
+        this.menuOpen = '';
+      this.HamburgerMenuDisplay= 'none';
+    },
+  GoToPortfolioSchool(){
+      var element = document.getElementById('portfolio1school');
       var top = element.offsetTop;
       var left = element.offsetLeft;
       window.scroll(left, top-104);

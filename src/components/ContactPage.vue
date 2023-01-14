@@ -70,8 +70,8 @@ export default {
 .contactpage{
     height: calc(100vh - 6rem);
     width: 100%;
-    background: var(--accent-black);
-    color: var(--accent-white);
+    background: var(--accent-white);
+    color: var(--accent-black);
 }
 .contactcontainer{
     margin-left: 50%;
@@ -89,7 +89,8 @@ label{
     font-size: 2rem;
 }
 input{
-    background: var(--accent-white);
+    background: var(--accent-black);
+    color: var(--accent-white);
     display: block;
     font-size: 2rem;
 }
@@ -103,7 +104,8 @@ input[type=submit]{
   cursor: pointer;
 }
 textarea{
-    background: var(--accent-white);
+    background: var(--accent-black);
+    color: var(--accent-white);
     font-size: 1.5rem;
     width: 30rem;
     height: 10rem;
@@ -131,13 +133,13 @@ h3{
     flex-direction: column;
     padding: 2rem;
     margin: 0 1%;
-    border: 0.2rem solid var(--accent-white);
+    border: 0.2rem solid var(--accent-black);
     border-radius: 1rem;
     width: 35%;
 }
 form{
     padding: 2rem;
-    border: 0.2rem solid var(--accent-white);
+    border: 0.2rem solid var(--accent-black);
     border-radius: 1rem;
     width: 60%;
 }
@@ -149,7 +151,7 @@ p{
 }
 a{
     text-decoration: none;
-    color: var(--accent-white);
+    color: var(--accent-black);
 }
 @media (hover: hover) {  
     input[type=submit]:hover{

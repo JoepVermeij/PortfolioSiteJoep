@@ -6,6 +6,7 @@
   <LandingPage/>
   <AboutMe/>
   <Portfolio />
+  <PortfolioSchool/>
   <ContactPage />
 </div>
 </template>
@@ -14,6 +15,7 @@
 import Header from './components/Header.vue'
 import LandingPage from './components/LandingPage.vue'
 import Portfolio from './components/Portfolio.vue'
+import PortfolioSchool from './components/PortfolioSchool.vue'
 import LeftSide from './components/LeftSide.vue'
 import AboutMe from './components/AboutMe.vue'
 import ContactPage from './components/ContactPage.vue'
@@ -28,6 +30,7 @@ export default {
     Header,
     LandingPage,
     Portfolio,
+    PortfolioSchool,
     LeftSide,
     AboutMe,
     ContactPage,
