@@ -23,13 +23,11 @@
           <h3>Links</h3>
           <ul>
             <li><a :href="`${publicPath}Logboek_VermeijJoep.pdf`" download="">Logboek</a></li>
-            <li><a :href="`${publicPath}Feedback_Ontwikkeling_VermeijJoep.pdf`" download="">Feedback Ontwikkeling</a></li>
-            <li><a :href="`${publicPath}WPL3-FG-werkprestaties_VermeijJoep.pdf`" download="">Functioneringsgesprek WerkPrestaties</a></li>
-            <li><a :href="`${publicPath}WPL3-EG-werkprestaties_VermeijJoep.pdf`" download="">Evalutiesgesprek WerkPrestaties</a></li>
-            <li><a :href="`${publicPath}WPL3-EG-werkkwaliteiten_VermeijJoep.pdf`" download="">Evalutiesgesprek WerkKwaliteiten</a></li>
-            <li><a :href="`${publicPath}Pitch_SalviaBioElectronics_VermeijJoep.pdf`" download="">Pitch werkplek</a></li>
-            <li><a :href="`${publicPath}Probleem-Advies_VermeijJoep.pdf`" download="">Probleemsituatie + advies/actie</a></li>
-            <li><a :href="`${publicPath}Reflectie_leerdoelen_kwaliteiten_VermeijJoep.pdf`" download="">Reflectie Begin WerkplekLeren</a></li>
+            <li><a :href="`${publicPath}WPL4-FG-werkprestaties_VermeijJoep.pdf`" download="">Functioneringsgesprek WerkPrestaties</a></li>
+            <li><a :href="`${publicPath}WPL4-EG-werkprestaties_VermeijJoep.pdf`" download="">Evalutiesgesprek WerkPrestaties</a></li>
+            <li><a :href="`${publicPath}WPL4-EG-werkkwaliteiten_VermeijJoep.pdf`" download="">Evalutiesgesprek WerkKwaliteiten</a></li>
+            <li><a :href="`${publicPath}WPL_Intervisie_ProblSucces_Feedback_VermeijJoep.pdf`" download="">Intervisie ProblSucces</a></li>
+            <li><a :href="`${publicPath}WPL_Eindreflectie_VermeijJoep.pdf`" download="">Reflectie Einde WerkplekLeren</a></li>
           </ul>
           <button @click="CloseModal" class="modalclose">close</button>
         </div>
@@ -64,7 +62,7 @@
             <ul>
               <li>Het werk dat ik er nu doe is praktisch hetzelfde in omgang en verwachtingen van als ik er fulltime zou werken, het enigste verschil is dat ik niet 5 dagen maar 3 dagen werk.</li>
             </ul>
-            <h2>Vooruitblikken op WPL4</h2>
+            <h2>Vooruitblikken voor na je studie</h2>
             <ul>
               <li>Ik wil dieper gaan in het ontwikkelen van core business projecten zoals het ontwikkelen van testen voor de firmware of het ontwikkelen van de patiënt app.</li>
               <li>Een uitdaging hiervan is dat het vele niveaus hoger ligt dan mijn huidig werk en dat ik goede documentatie moet schrijven en me aan de normen van de huidige code moet houden.</li>
